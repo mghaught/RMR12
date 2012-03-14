@@ -1,0 +1,146 @@
+html {
+    height: 100%;
+    width: 100%;
+}
+
+body {
+    background:transparent url(../images/bg.png) repeat 0 0;
+    margin: 0;
+    height: 100%;
+    width: 100%;
+    font-family:Open Sans, helvetica, sans-serif;
+    color: #38271f;
+    font-size: 14px;
+}
+
+ul {
+    list-style: none;
+    padding-left: 0;
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+    color: #3E6E5C;
+    font-weight: bold;
+}
+
+a:hover {
+    color: #48896B;
+}
+
+h1 {
+    font-family: Arvo;
+    margin: 50px 0 0 0;
+    font-size: 36px;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    color: #442412;
+    text-shadow: 3px 3px 0 #CCC;
+}
+
+h2 {
+    font-size: 22px;
+    line-height: 36px;
+    color: #3A524B;
+}
+
+p {
+    font-weight: 400;
+    line-height: 22px;
+}
+
+.container {
+    background:transparent url(../images/bg-aside.png) repeat-y -3px 0;
+    width: 100%;
+}
+
+aside {
+    position: fixed;
+    z-index: 100;
+    top: 0;
+    width: 348px;
+    text-align: right;
+    padding: 530px 42px 0 0;
+    margin: 0 0 100px 0;
+    background: transparent url(../images/label2.png) no-repeat 0 0;
+    height: 100%;
+}
+
+nav {
+    float: right;
+    text-align: right;
+    margin: 10px 0;
+}
+
+nav a{
+    font-family: Arvo;
+    color: white;
+    font-weight: 700;
+    text-transform: uppercase;
+    line-height: 36px;
+    font-size: 18px;
+    letter-spacing: 0.2em;
+}
+
+nav a:hover {
+    color: #fed769;
+}
+
+section {
+    margin-bottom: 50px;
+}
+
+.twitter {
+    position: fixed;
+    z-index:105;
+    top: 0;
+    right: 0;
+    width: 300px;
+}
+
+.tweets {
+    background: #f4f4f4;
+    border-radius: 0.2em;
+    padding: 20px;
+    text-align: left;
+}
+
+.follow-us {
+    color: white;
+    font-family: Arvo;
+    font-weight: 400;
+    font-size: 14px;
+    margin: -58px 0 0 0;
+}
+
+.follow-us a {
+        color: #FFC933;
+    }
+
+.follow-us a:hover {
+        color: #FFC933;
+    }
+
+.right-side {
+    background: transparent url(../images/beer-equip.png) no-repeat 264px -100px;
+}
+
+.main-scroll {
+    float: left;
+    margin: 50px 0 100px 490px;
+    width: 700px;
+}
+
+img.bottlecap {
+    float: right;
+    margin: -25px -70px 0 15px;
+}
+
+
+/* clearfix */
+
+.cf:before, .cf:after { content: ""; display: table; }
+.cf:after { clear: both; }
+.cf { zoom: 1; }
+
